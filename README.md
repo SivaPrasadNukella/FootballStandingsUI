@@ -16,7 +16,7 @@ E:\reactjs-ws>cd football-standings
 
 •	npm install
 •	npm install axios
-•	npm install bootstrap –save
+•	npm install bootstrap --save
 
 4)	Now you are ready to run the react js application. Just execute the below command to start the react js application.
 
