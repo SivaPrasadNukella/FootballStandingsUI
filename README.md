@@ -1,4 +1,5 @@
 # FootballStandingsUI
+Yahoo Fantasy Sports Football Standings Application
 
 Steps to access frontend react js application:
 
