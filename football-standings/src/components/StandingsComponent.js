@@ -19,9 +19,10 @@ class StandingsComponent extends React.Component {
     render() {
         return (
             <div>
-                <table className="table">
+                <table striped bordered hover size="sm">
+					<tbody>
 					<tr>
-						<td><h1 className="text-center">PREMIER LEAGUE STANDING TABLE</h1></td>
+						<td><h3 className="text-center">PREMIER LEAGUE STANDING TABLE</h3></td>
 					</tr>
                     <tr>
                         <td><h4 className="text-center"><a href={this.state.teams.filter(team => team.matchesUrl != null).map(obj => 
@@ -30,8 +31,9 @@ class StandingsComponent extends React.Component {
 						
 						)}>Latest Matches</a></h4></td>
 					</tr>
+					</tbody>
 				</table>
-                <table className="table table-striped">
+                <table striped bordered hover size="sm">
                     <thead>
                         <tr>
                             <td><b>#</b></td>
